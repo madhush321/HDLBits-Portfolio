@@ -6,8 +6,7 @@
 
 This repository tracks my ongoing hardware design and verification solutions on **[HDLBits](https://hdlbits.01xz.net/wiki/Problem_sets)**. Each solution focuses on writing clean, synthesizable Verilog-2001 RTL with strict separation of combinational and sequential logic.
 
-🔗 **Live Verifiable HDLBits Profile:** [View My Public HDLBits Stats]
-([https://hdlbits.01xz.net/wiki/Special:VlgStats/7F968507AEE1B6F9])
+🔗 **Live Verifiable HDLBits Profile:** [View My Public HDLBits Stats](https://hdlbits.01xz.net/wiki/Special:VlgStats/YOUR_16_CHAR_HEX_ID)
 
 ---
 
@@ -15,7 +14,7 @@ This repository tracks my ongoing hardware design and verification solutions on 
 
 | # | Section / Category | Sub-Category | Solved | Total | Status |
 |---|---|---|---|---|---|
-| **01** | **Getting Started** | [01_Getting_Started](.Step_one.v) | 2 | 2 | ✅ Completed |
+| **01** | **Getting Started** | [01_Getting_Started](./01_Getting_Started/) | 2 | 2 | ✅ Completed |
 | **02** | **Verilog Language** | [01_Basics](./02_Verilog_Language/01_Basics/) | 0 | 8 | 🔄 In Progress |
 | | | [02_Vectors](./02_Verilog_Language/02_Vectors/) | 0 | 9 | ⏳ Pending |
 | | | [03_Modules_Hierarchy](./02_Verilog_Language/03_Modules_Hierarchy/) | 0 | 9 | ⏳ Pending |
