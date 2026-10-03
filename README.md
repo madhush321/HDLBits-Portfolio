@@ -10,12 +10,12 @@ This repository tracks my ongoing hardware design and verification solutions on 
 
 ---
 
-## 📊 Overall Progress Tracker (XX / 182 Solved)
+## 📊 Overall Progress Tracker (07 / 182 Solved)
 
 | # | Section / Category | Sub-Category | Solved | Total | Status |
 |---|---|---|---|---|---|
 | **01** | **Getting Started** | [01_Getting_Started](01_Getting_Started/) | 2 | 2 | ✅ Completed |
-| **02** | **Verilog Language** | [01_Basics](./02_Verilog_Language/01_Basics/) | 0 | 8 | 🔄 In Progress |
+| **02** | **Verilog Language** | [01_Basics](./02_Verilog_Language/01_Basics/) | 5 | 8 | 🔄 In Progress |
 | | | [02_Vectors](./02_Verilog_Language/02_Vectors/) | 0 | 9 | ⏳ Pending |
 | | | [03_Modules_Hierarchy](./02_Verilog_Language/03_Modules_Hierarchy/) | 0 | 9 | ⏳ Pending |
 | | | [04_Procedures](./02_Verilog_Language/04_Procedures/) | 0 | 8 | ⏳ Pending |
@@ -38,27 +38,3 @@ This repository tracks my ongoing hardware design and verification solutions on 
 
 ---
 
-## ⭐ Featured Hardware Implementations (Quick Links for Reviewers)
-
-Rather than browsing all 182 files, reviewers can inspect these representative RTL designs:
-
-* **[100-Bit BCD Ripple-Carry Adder](./02_Verilog_Language/05_More_Verilog_Features/bcdadd100.v):** Parameterized structural instantiation using `generate for` loops.
-* **[12-Hour BCD Clock with AM/PM Indicator](./03_Circuits/02_Sequential_Logic/02_Counters/count_clock.v):** Cascaded synchronous BCD counters handling roll-over corner cases (`11:59:59` to `12:00:00` and `12:59:59` to `01:00:00`).
-* **[Conway's Game of Life on a 16x16 Toroidal Grid](./03_Circuits/02_Sequential_Logic/04_More_Circuits/conwaylife.v):** 2D neighbor-counting combinational array updating 256 synchronous flip-flops every clock cycle.
-* **[Lemmings 4 FSM (Walk, Fall, Dig & Splat)](./03_Circuits/02_Sequential_Logic/05_Finite_State_Machines/lemmings4.v):** Multi-state Moore FSM integrated with a datapath cycle counter to track terminal velocity (>20 clock cycles).
-* **[UART Serial Receiver with Parity Checking](./03_Circuits/02_Sequential_Logic/05_Finite_State_Machines/fsm_serialdp.v):** FSM controller + shift-register datapath + odd-parity verification module.
-* **[Gshare Branch Predictor (CS450)](./06_CS450_Computer_Architecture/gshare.v):** 7-bit global history register XORed with PC to index a 128-entry 2-bit saturating counter Pattern History Table (PHT).
-
----
-
-## 🛠️ RTL Coding Conventions Followed
-
-1. **Zero Unintended Latches:** Every combinational `always @(*)` block assigns default values at the top of the procedure or defines all `case`/`if-else` branches explicitly.
-2. **Blocking vs. Non-Blocking Discipline:** Strict use of blocking assignments (`=`) in combinational blocks (`always @(*)`) and non-blocking assignments (`<=`) in sequential clocked blocks (`always @(posedge clk)`).
-3. **Explicit Multi-Block FSMs:** Finite State Machines separate next-state combinational decoding, sequential state register updates, and output logic into distinct blocks for clean synthesis and timing analysis.
-
----
-
-## 📈 Completion Grid Snapshot
-
-![HDLBits Completion Stats](./assets/hdlbits_stats_grid.png)
