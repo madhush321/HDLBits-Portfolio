@@ -1,7 +1,7 @@
 # Verilog RTL Design & Verification Portfolio — HDLBits Solutions
 
 ![Language](https://img.shields.io/badge/Language-Verilog--2001-blue)
-![Progress](https://img.shields.io/badge/Solved-XX%20%2F%20182-brightgreen)
+![Progress](https://img.shields.io/badge/Solved-07%20%2F%20182-brightgreen)
 ![Focus](https://img.shields.io/badge/Focus-RTL%20Design%20%7C%20FSMs%20%7C%20Verification-orange)
 
 This repository tracks my ongoing hardware design and verification solutions on **[HDLBits](https://hdlbits.01xz.net/wiki/Problem_sets)**. Each solution focuses on writing clean, synthesizable Verilog-2001 RTL with strict separation of combinational and sequential logic.
@@ -34,7 +34,7 @@ This repository tracks my ongoing hardware design and verification solutions on 
 | | | [02_Build_Circuit_from_Waveform](./04_Verification_Reading_Simulations/02_Build_Circuit_from_Waveform/) | 0 | 10 | ⏳ Pending |
 | **05** | **Writing Testbenches** | [05_Verification_Writing_Testbenches](./05_Verification_Writing_Testbenches/) | 0 | 5 | ⏳ Pending |
 | **06** | **Computer Architecture** | [06_CS450_Computer_Architecture](./06_CS450_Computer_Architecture/) | 0 | 4 | ⏳ Pending |
-| | **TOTAL** | | **2** | **182** | **1.1%** |
+
 
 ---
 
