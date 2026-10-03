@@ -14,7 +14,7 @@ This repository tracks my ongoing hardware design and verification solutions on 
 
 | # | Section / Category | Sub-Category | Solved | Total | Status |
 |---|---|---|---|---|---|
-| **01** | **Getting Started** | [01_Getting_Started](01_Getting_Started/step_one.v) | 2 | 2 | ✅ Completed |
+| **01** | **Getting Started** | [01_Getting_Started](01_Getting_Started/) | 2 | 2 | ✅ Completed |
 | **02** | **Verilog Language** | [01_Basics](./02_Verilog_Language/01_Basics/) | 0 | 8 | 🔄 In Progress |
 | | | [02_Vectors](./02_Verilog_Language/02_Vectors/) | 0 | 9 | ⏳ Pending |
 | | | [03_Modules_Hierarchy](./02_Verilog_Language/03_Modules_Hierarchy/) | 0 | 9 | ⏳ Pending |
