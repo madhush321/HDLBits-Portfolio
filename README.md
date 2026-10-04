@@ -1,7 +1,7 @@
 # Verilog RTL Design & Verification Portfolio — HDLBits Solutions
 
 ![Language](https://img.shields.io/badge/Language-Verilog--2001-blue)
-![Progress](https://img.shields.io/badge/Solved-07%20%2F%20182-brightgreen)
+![Progress](https://img.shields.io/badge/Solved-15%20%2F%20182-brightgreen)
 ![Focus](https://img.shields.io/badge/Focus-RTL%20Design%20%7C%20FSMs%20%7C%20Verification-orange)
 
 This repository tracks my ongoing hardware design and verification solutions on **[HDLBits](https://hdlbits.01xz.net/wiki/Problem_sets)**. Each solution focuses on writing clean, synthesizable Verilog-2001 RTL with strict separation of combinational and sequential logic.
@@ -10,13 +10,13 @@ This repository tracks my ongoing hardware design and verification solutions on 
 
 ---
 
-## 📊 Overall Progress Tracker (07 / 182 Solved)
+## 📊 Overall Progress Tracker (15 / 182 Solved)
 
 | # | Section / Category | Sub-Category | Solved | Total | Status |
 |---|---|---|---|---|---|
 | **01** | **Getting Started** | [01_Getting_Started](01_Getting_Started/) | 2 | 2 | ✅ Completed |
-| **02** | **Verilog Language** | [01_Basics](./02_Verilog_Language/01_Basics/) | 5 | 8 | 🔄 In Progress |
-| | | [02_Vectors](./02_Verilog_Language/02_Vectors/) | 0 | 9 | ⏳ Pending |
+| **02** | **Verilog Language** | [01_Basics](./02_Verilog_Language/01_Basics/) | 8 | 8 | ✅ Completed |
+| | | [02_Vectors](./02_Verilog_Language/02_Vectors/) | 5 | 9 | 🔄 In Progress |
 | | | [03_Modules_Hierarchy](./02_Verilog_Language/03_Modules_Hierarchy/) | 0 | 9 | ⏳ Pending |
 | | | [04_Procedures](./02_Verilog_Language/04_Procedures/) | 0 | 8 | ⏳ Pending |
 | | | [05_More_Verilog_Features](./02_Verilog_Language/05_More_Verilog_Features/) | 0 | 7 | ⏳ Pending |
